@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222222;
+}
+
+.top {
+    background-color: #6b3a1e;
+    color: white;
+    padding: 15px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.top nav {
+    margin-top: 10px;
+}
+
+.top nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.hero,
+.card,
+.form-box,
+table {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
+
+.hero h1 {
+    margin-top: 0;
+    color: #6b3a1e;
+}
+
+.btn,
+button {
+    background-color: #6b3a1e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover,
+button:hover {
+    background-color: #4d2915;
+}
+
+.cards {
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+.price {
+    color: #6b3a1e;
+    font-weight: bold;
+}
+
+.form-box {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 9px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #999999;
+    font-size: 14px;
+}
+
+textarea {
+    height: 80px;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.error {
+    background-color: #ffd6d6;
+    color: #990000;
+}
+
+.success {
+    background-color: #d9ffd9;
+    color: #006600;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0;
+}
+
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #6b3a1e;
+    color: white;
+}
+
+.status {
+    color: #6b3a1e;
+    font-weight: bold;
+}
+
+.inline-form select {
+    width: auto;
+}
+
+.review-form textarea {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 96%;
+    }
+
+    .top nav a {
+        display: block;
+        margin-top: 8px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+}
